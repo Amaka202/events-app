@@ -432,5 +432,8 @@ footer div{
   width: 100%;
 }
 
-
+.other-main{
+  padding-right: 5%;
+  padding-left: 5%;
+}
 }
