@@ -1,3 +1,13 @@
+function myFunction() {
+  var x = document.getElementById("responsive");
+  if (x.className === "resp") {
+    x.className += "nav-links";
+  } else {
+    x.className = "resp";
+  }
+
+}
+
 var textWrapper = document.querySelector('.ml2');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
