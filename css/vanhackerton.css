@@ -1,0 +1,23 @@
+main p{
+    line-height: 30px;
+}
+
+.hackerton-div{
+    text-align: center;
+}
+
+iframe{
+    padding: 2rem;
+    width: 560px;
+    height: 315px
+  }
+
+  @media (max-width: 600px){
+    body{
+        font-size: 80%;
+    }
+    .hackerton-div iframe{
+        width: 500px;
+        height: 250px
+      }
+  }

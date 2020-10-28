@@ -1,0 +1,44 @@
+.event-description p{
+    line-height: 30px;
+}
+.register p{
+    padding-top: 1rem;
+}
+
+.location-topic{
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.location section{
+    margin-bottom: 1rem;
+}
+
+.location section p{
+    line-height: 25px;
+    font-size: 1em;
+}
+.location section h5{
+    padding-bottom: 0.8rem;
+}
+.location section img{
+    float: left;
+    width: 15px;
+    margin-right: 15px;
+}
+
+.share{
+    padding-top: 1rem;
+}
+
+@media (max-width: 600px){
+    .location{
+        flex-direction: column;
+    }
+}
