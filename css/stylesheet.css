@@ -275,6 +275,7 @@ main{
   display: flex;
   justify-content: center;
   align-content: center;
+  margin-bottom: 3rem;
 }
 
 .minor-events section{
@@ -349,6 +350,11 @@ form input[required=required]:after{
   display: none;
 }
 
+.share i{
+  color: #21AAEB;
+  padding: 0.5rem;
+}
+
 /* footer */
 footer{
   padding: 2% 5%;
@@ -398,6 +404,8 @@ footer .socials i{
   ul.nav-links{
     flex-direction: column;        
     align-items: center;
+    display: block;
+    margin-top: 1.5rem;
 }
 
 ul.nav-links.resp{
@@ -406,7 +414,7 @@ ul.nav-links.resp{
 
   .nav-links li{
     font-size: 1.1em;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 } 
   .logo .control{
   color: var(--primary);
