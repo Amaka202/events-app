@@ -1,11 +1,6 @@
-function myFunction() {
-  var x = document.getElementById("responsive");
-  if (x.className === "resp") {
-    x.className += "nav-links";
-  } else {
-    x.className = "resp";
-  }
-
+function nav() {
+  let x = document.getElementById("responsive");
+  x.classList.toggle("resp")
 }
 
 var textWrapper = document.querySelector('.ml2');

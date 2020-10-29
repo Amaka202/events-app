@@ -17,14 +17,15 @@
             <nav id="nav" class="flexed">
                 <div class="logo">
                     <img src="../images/7fefa6b1dc9802203f976c49b68a47bf.svg" alt="vanhack logo">
+                    <button class="control" onclick="nav()">☰</button>
                 </div>
-                <ul class="nav-links">
+                <ul class="nav-links resp" id="responsive"> 
                     <li><a href="../index.html">Home</a></li>
-                    <li><a href="./leap.html">Leap</a></li>
-                    <li><a href="./mission.html">Recruiting Mission</a></li>
-                    <li><a href="./vanhackerton.html">VanHackaton</a></li>
-                    <li><a href="./meetups.html">Meet Ups</a></li>
-                    <li><a href="./webinars.html">Webinars</a></li>
+                    <li><a href="../pages/leap.html">Leap</a></li>
+                    <li><a href="../pages/mission.html">Recruiting Mission</a></li>
+                    <li><a href="../pages/vanhackerton.html">VanHackaton</a></li>
+                    <li><a href="../pages/meetups.html">Meet Ups</a></li>
+                    <li><a href="../pages/webinars.html">Webinars</a></li>
                 </ul>
             </nav>
             <p>Vanhack Events and Activities!</p>
@@ -100,7 +101,7 @@
             <section class="share">
                 <p>
                     <i class="fa fa-share-square"></i>
-                    <a href="#" id="share-btn" class="click-text">
+                    <a href="javascript:void(0);" id="share-btn" class="click-text" role="button">
                         Click to share
                     </a>
                 </p>
